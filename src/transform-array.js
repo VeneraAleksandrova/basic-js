@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../lib');
+const { NotImplementedError } = require("../lib");
 
 /**
  * Create transformed array based on the control sequences that original
@@ -15,9 +15,9 @@ const { NotImplementedError } = require('../lib');
  */
 function transform(/* arr */) {
   // Remove line below and write your code here
-  throw new NotImplementedError('Not implemented');
+  throw new NotImplementedError("Not implemented");
 }
 
 module.exports = {
-  transform
+  transform,
 };
